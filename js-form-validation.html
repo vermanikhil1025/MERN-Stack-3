@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript form validation using a simple registartion form</title>
+    <link rel="stylesheet" href="js-form-validation.css" type="text/css"/>
+    <script src="sample-ragisatrion-form-validation.js"></script>
+</head>
+
+
+<body>
+
+    <h1>Registration form</h1>
+    Use tab keys to move the text to next line.
+
+    <form >
+        <ul>
+            <li><lablel for="userid">User id:</lablel></li>
+            <li><input type="text" name="userid" size="12"></li>
+            <li><label for="passid">Password:</label></li>
+            <li><input type="password" name="passid" size="12"></li>
+            <li><label for="name">Name:</label></li>
+            <li><input type="name" name="name" size="50"></li>
+            <li><label for="Address">Address:</label></li>
+            <li><input type="text" name="Address" size="50"></li>
+            <li><label for="Country">Country:</label></li>
+            <li>
+                <select name="country">
+                    <option selected="" value="Default">(Please enter a country)</option>
+                    <option value="AF">Australia</option>
+                    <option value="AL">Canada</option>
+                    <option value="DZ">India</option>
+                    <option value="AS">Russia</option>
+                    <option value="AD">USA</option>
+
+                </select>
+            </li>
+            <li><label for="zip code:">ZIP CODE:</label></li>
+            <li><input type="text" name="zip"></li>
+
+            <li><label for="Email">Email:</label></li>
+            <li><input type="text" name="email" size="50"></li>
+            <li><label for="gender">Sex:</label></li>
+            <li><input type="radio" name="msex" value="Male"><span>Male</span></li>
+            <li><input type="radio" name="Fsex" value="Male"><span>Female</span></li>
+
+            <li><lable>Language:</lable></li>
+
+            <li><input type="checkbox" name="en" value="en" checked><span>English</span></li>
+            <li><input type="checkbox" name="non-en" value="non-en"><span>Non-English</span></li>
+
+            <li><label for="desc">About:</label></li>
+            <li><textarea name="desc" id="desc"></textarea></li>
+
+            <li><input type="submit" name="submit" value="Submit"></li>
+
+        </ul>
+        
+        
+
+    </form>
+</body>
+</html>
